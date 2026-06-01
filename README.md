@@ -71,27 +71,51 @@ Tracks how ownership models differ across global corporate pipelines.
 
 ![Ownership Model Distribution](Screenshots/1_ownership_distribution.png)
 
-* **Analysis Insight:** The chart visually demonstrates that **Company Owned** and **Licensed** stores serve as the core engines behind Starbucks' massive international expansion strategy, while franchises handle the minor share.
+#### 🔍 Chart Breakdown:
+* **Tallest Bar (Dark Blue/Purple):** Represents the most common ownership types globally (*Company Owned* and *Licensed*).
+* **Shorter Bars (Green/Yellow):** Represent less frequent business models like *Joint Ventures* or *Franchises*.
+
+> 💡 **Core Business Insight:** This visually proves exactly which business models Starbucks relies on for aggressive global scaling. **Company Owned** and **Licensed** models act as the core operational engines, while traditional franchising handles a minimal share.
+
 * **Data Split Reference:**
-    ![Ownership Counts](Screenshots/5.png)
+![Ownership Counts](Screenshots/5.png)
+
+---
 
 ### 2. Geographical Spread Analysis & Outlier Detection (Boxplot)
 Maps numerical longitude fields grouped by operational business frameworks to detect anomalies.
 
 ![Geographical Boxplot](Screenshots/2_geographical_spread_boxplot.png)
 
-* **Analysis Insight:** The colored rectangular boxes highlight where the core 50% mass of store locations exist. The isolated individual black dots plotted far beyond the horizontal whiskers indicate **statistical outliers**—isolated stores operating in extreme regions or far-off islands separate from common corporate territories.
+#### 🔍 Chart Breakdown:
+* **The Colored Boxes:** Represent the central data cluster where the middle 50% of Starbucks stores are located globally.
+* **The Horizontal Center Line:** Marks the statistical median (average geographic placement) for that specific category.
+* **The Black Dots:** Represent clear statistical **OUTLIERS**—extreme or isolated geographic coordinates.
+
+> 💡 **Core Business Insight:** The box dimensions highlight that *Licensed* store placements are spread across a much wider geographic footprint compared to *Company Owned* setups. The outlying points flag unique, isolated international locations operating far away from standard dense corporate clusters.
+
+---
 
 ### 3. Coordinate Dependency Matrix (Heatmap)
 Evaluates linear relationships between spatial coordinates.
 
 ![Correlation Heatmap](Screenshots/3_coordinate_correlation_heatmap.png)
 
-* **Analysis Insight:** The heatmap yields a mild negative correlation score of **-0.28** between Latitude and Longitude. This mathematical value confirms that a store's horizontal axis position fluctuates independently from its vertical coordinates, showing no clustered global linear path.
+#### 🔍 Chart Breakdown:
+* **Deep Red Blocks (+1.00):** Represent perfect positive linear correlation (variables matching perfectly with themselves).
+* **Lighter Blue Blocks (-0.28):** Display the exact mathematical relationship between spatial variables.
+
+> 💡 **Core Business Insight:** The mild negative correlation score of **-0.28** proves that a store's horizontal axis (Longitude) moves almost completely independently from its vertical axis (Latitude), indicating no strict linear or single-directional expansion pathway across the globe.
+
+---
 
 ### 4. Regional Expansion Patterns (Pairplot)
 Combines multi-variable scatter grids and internal smooth kernel density plots to track global overlaps.
 
 ![Expansion Pairplot](Screenshots/4_expansion_pattern_pairplot.jpg)
 
-* **Analysis Insight:** The smooth mountain curves cutting diagonally across the chart highlight the exact geographic peaks where regional store counts group tightest. The scattered data point spreads create an organic visual map of the globe, indicating clean geographic partitions among corporate ownership frameworks.
+#### 🔍 Chart Breakdown:
+* **Diagonal Curves (Mountains):** Display the highest probability density areas for each distinct ownership style.
+* **Scatter Grid Points:** Illustrate direct spatial overlapping where multiple store types operate in the same geographic zones.
+
+> 💡 **Core Business Insight:** The density mountains help analysts easily spot the regional dominance of specific business frameworks, showing clear spatial partitions where certain strategies rule over others across different global hemispheres.
