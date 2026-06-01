@@ -112,7 +112,7 @@ Evaluates linear relationships between spatial coordinates.
 ### 4. Regional Expansion Patterns (Pairplot)
 Combines multi-variable scatter grids and internal smooth kernel density plots to track global overlaps.
 
-![Expansion Pairplot](Screenshots/4_expansion_pattern_pairplot.jpg)
+![Expansion Pairplot](Screenshots/4_expansion_pattern_pairplot.png)
 
 #### 🔍 Chart Breakdown:
 * **Diagonal Curves (Mountains):** Display the highest probability density areas for each distinct ownership style.
