@@ -1,6 +1,6 @@
-☕ Global Starbucks Stores & Consumer Behavior (EDA) 
+## ☕ Global Starbucks Stores & Consumer Behavior (EDA)
 
-## Project Objective
+## Project Objective 
 The goal of this project is to perform a comprehensive **Exploratory Data Analysis (EDA)** on the Starbucks Global Dataset to uncover hidden patterns, trends, operational structures, and geographical anomalies using advanced descriptive statistics and data visualization tools.
 
 * **Domain:** Business Analytics & Spatial Data Analysis
